@@ -26,6 +26,10 @@ function makeInt(n){
   return parseInt(n)
 }
 
+function makeInt(n){
+  return parseInt(n, 10)
+}
+
 add (1, 2)
 subtract (10, 5)
 multiply (2, 2)
